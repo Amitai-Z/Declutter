@@ -1,0 +1,74 @@
+/* style.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #0068a8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #a69191;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    text-align: left;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #9ad3db;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#contact h2 {
+    margin-top: 0;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #007bff;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
