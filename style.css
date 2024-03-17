@@ -15,34 +15,44 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
     color: #0068a8;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+  font-size: 30px;
 }
 
 header h1 {
     margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h2{
+  padding: 0px;
 }
 
 /* Navigation styles */
 nav {
-    background-color: #a69191;
+    /*background-color: #a69191;*/
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
+    background-color: #333;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+  font-size: 20px;
 }
 
 /* Main content styles */
 main {
-    padding: 20px;
-    text-align: left;
+    padding: 0px;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 /* Contact section styles */
@@ -51,6 +61,10 @@ main {
     padding: 20px;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 #contact h2 {
@@ -71,4 +85,9 @@ main {
         width: 100%;
         padding: 0 10px;
     }
+}
+
+#p{
+  text-align: left;
+  font-size: 20px;
 }
