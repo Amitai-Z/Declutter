@@ -2,59 +2,105 @@
 
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#about {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  background-color: #ffffff;
+}
+
+/*promotional video*/
+
+
+#AboutMe {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+#about2 {
+  font-family: Arial, sans-serif;
+  padding: 1;
+  margin: 1;
+  font-size: 17px
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #0068a8;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: #0068a8;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, sans-serif;
 }
 
 header h1 {
-    margin: 0;
+  margin: 0;
 }
 
 /* Main content styles */
 main {
-    padding: 20px;
-    text-align: left;
+
+  padding: 20px;
+  text-align: left;
 }
 
 /* Contact section styles */
 #contact {
-    background-color: #9ad3db;
-    padding: 20px;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+  background-color: #9ad3db;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 #contact h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #contact p {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #contact a {
-    color: #007bff;
+  color: #007bff;
 }
+
+#testimony {
+  text-align: center;
+  padding: 4%
+}
+
+#Lisa {
+
+  text-align: left;
+  padding: 2%
+}
+
+#Matthew {
+  text-align: right;
+  padding: 2%
+}
+
+#Joe {
+  text-align: left;
+  padding: 1%
+}
+
 
 /* Responsive styles */
 @media screen and (max-width: 600px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
 }
